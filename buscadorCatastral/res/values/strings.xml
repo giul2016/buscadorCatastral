@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">buscadorCatastral</string>
+    <string name="action_settings">Settings</string>
+    <string name="Provincia">Provincia</string>
+    <string name="Municipio">Municipio</string>
+    <string name="Poligono">Poligono</string>
+    <string name="Parcela">Parcela</string>
+    <string name="Buscar">Buscar</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>
