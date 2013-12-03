@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+		<TextView
+	        android:id="@+id/Provincia"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/Provincia" />
+        <Spinner
+            android:id="@+id/spinnerProvincias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+	 	<TextView
+	        android:id="@+id/TextViewMunicipio"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/Municipio"/>
+
+	 	<Spinner
+	 	    android:id="@+id/spinnerMunicipios"
+	 	    android:layout_width="match_parent"
+	 	    android:layout_height="wrap_content" />
+
+	 	<TextView
+	 	    android:id="@+id/TextViewPoligono"
+	 	    android:layout_width="match_parent"
+	 	    android:layout_height="wrap_content"
+	 	    android:text="@string/Poligono" />
+
+	 	<EditText
+	 	    android:id="@+id/editTextPoligono"
+	 	    android:layout_width="match_parent"
+	 	    android:layout_height="wrap_content"
+	 	    android:ems="10"
+	 	    android:inputType="number"
+	 	    android:maxLength="3" />
+
+	 	<TextView
+	 	    android:id="@+id/TextView01"
+	 	    android:layout_width="match_parent"
+	 	    android:layout_height="wrap_content"
+	 	    android:text="@string/Parcela" />
+
+	 	<EditText
+	 	    android:id="@+id/editTextParcela"
+	 	    android:layout_width="match_parent"
+	 	    android:layout_height="wrap_content"
+	 	    android:ems="10"
+	 	    android:inputType="number"
+	 	    android:maxLength="5"/>
+
+	 	<Button
+	 	    android:id="@+id/button1"
+	 	    android:layout_width="wrap_content"
+	 	    android:layout_height="wrap_content"
+	 	    android:text="@string/Buscar"
+	 	    android:onClick="getCordenadasRC"  />
+
+	 	<Button
+	 	    android:id="@+id/button2"
+	 	    android:layout_width="wrap_content"
+	 	    android:layout_height="wrap_content"
+	 	    android:text="Button" 
+	 	    android:onClick="lanzarIntent"
+	 	    />
+
+    </LinearLayout>
+
+   
+
+</RelativeLayout>
